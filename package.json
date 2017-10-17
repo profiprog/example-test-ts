@@ -1,0 +1,15 @@
+{
+  "name": "example-test-ts",
+  "version": "1.0.0",
+  "description": "Example how to test TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "milans",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  }
+}

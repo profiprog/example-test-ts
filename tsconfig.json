@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "dist",
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "declaration": true,
+    "importHelpers": false,
+    "sourceMap": true,
+    "listFiles": false,
+    "strictNullChecks": true,
+    "traceResolution": false,
+    "pretty": true,
+    "lib" : [
+      "es2015"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compileOnSave": false
+}
