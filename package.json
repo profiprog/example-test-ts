@@ -5,13 +5,15 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "jasmine-ts spec/**/*.spec.ts"
+    "test": "jasmine-ts spec/**/*.spec.ts",
+    "cover": "nyc --extension .ts jasmine-ts 'spec/**/*.spec.ts'; nyc report --reporter=html"
   },
   "author": "milans",
   "license": "ISC",
   "devDependencies": {
     "@types/jasmine": "^2.6.0",
     "jasmine-ts": "^0.2.1",
+    "nyc": "^11.2.1",
     "typescript": "^2.5.3"
   }
 }
