@@ -12,7 +12,8 @@
     "traceResolution": false,
     "pretty": true,
     "lib" : [
-      "es2015"
+      "es2015",
+      "dom"
     ]
   },
   "include": [

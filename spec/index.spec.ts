@@ -9,5 +9,6 @@ describe("index.ts:", function () {
 	it("padding", function () {
 		expect(padding("50€", 10)).toBe("       50€");
 		expect(padding("Suma:", -10)).toBe("Suma:     ");
+		//expect(padding("Suma:", 2)).toBe("Suma:");
 	});
 });
